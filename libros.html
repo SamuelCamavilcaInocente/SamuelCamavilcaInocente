@@ -1,67 +1,57 @@
-{% include 'admin/cabecera.html' %}
-<br>
-<div class="container">
+{% include 'sitio/cabecera.html' %}
+
     <div class="row">
         <div
-            class="col-5"
+            class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="https://books.goalkicker.com/PythonBook/PythonGrow.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Python</h4>
+                    <p class="card-text">
+                        <a name="" id="" class="btn btn-primary" href="http://python.org/descarga.pdf" role="button">descargar</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div
+            class="col-md-3"
+        >
+        <div class="card">
+            <img class="card-img-top" src="https://books.goalkicker.com/PythonBook/PythonGrow.png" alt="Title" />
+            <div class="card-body">
+                <h4 class="card-title">Python</h4>
+                <p class="card-text">
+                    <a name="" id="" class="btn btn-primary" href="http://python.org/descarga.pdf" role="button">descargar</a>
+                </p>
+            </div>
+        </div>
+        </div>
+        <div
+            class="col-md-3"
         >
           <div class="card">
-    <div class="card-header">Datos del libro</div>
-    <div class="card-body">
-        <form action="/admin/libros/guardar" method="post" enctype="multipart/form-data">
-        
-            <div class="mb-3">
-            <lavel for="textNombre" class="form-label">Nombre</lavel>
-            <input type="text" class="form-control" name="textNombre" id="textNombre" aria-describedby="helpId" placeholder="Escriba el nombre del libro">
-        </div>         
-        <div class="mb-3">
-            <lavel for="textImagen" class="form-label">Imagen</lavel>
-            <input type="file" class="form-control" name="textImagen" id="textImagen" aria-describedby="helpId" placeholder="Seleccione la imagen">
-        </div> 
-        <div class="mb-3">
-            <lavel for="textURL" class="form-label">URL Descarga</lavel>
-            <input type="text" class="form-control" name="textURL" id="textURL" aria-describedby="helpId" placeholder="Escriba la URL de descarga">
-        </div>
-     <button type="submit"class="btn btn-primary">Agregar </button>
-     
-
-
-        </form>
-    </div>
-    <div class="card-footer text-muted"></div>
-</div>  
-        </div>
-        <div class="col-md-7">
-            <div
-                class="table-responsive"
-            >
-                <table
-                    class="table table"
-                >
-                    <thead>
-                        <tr>
-                            <th >ID</th>
-                            <th >Nombre</th>
-                            <th >Imagen</th>
-                            <th >URL</th>
-                            <th >Acciones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="">
-                            <td>1</td>
-                            <td>python</td>
-                            <td>imagen.jpg</td>
-                            <td>http://python.org</td>
-                            <td>Eliminar</td>
-
-                        </tr>
-                        
-                    </tbody>
-                </table>
+                <img class="card-img-top" src="https://books.goalkicker.com/PythonBook/PythonGrow.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Python</h4>
+                    <p class="card-text">
+                        <a name="" id="" class="btn btn-primary" href="http://python.org/descarga.pdf" role="button">descargar</a>
+                    </p>
+                </div>
             </div>
-            
-            
+        </div>
+        <div
+            class="col-md-3"
+        >
+        <div class="card">
+            <img class="card-img-top" src="https://books.goalkicker.com/PythonBook/PythonGrow.png" alt="Title" />
+            <div class="card-body">
+                <h4 class="card-title">Python</h4>
+                <p class="card-text">
+                    <a name="" id="" class="btn btn-primary" href="http://python.org/descarga.pdf" role="button">descargar</a>
+                </p>
+            </div>
+        </div>
+    </div>
         </div>
         
     </div>
@@ -70,4 +60,6 @@
 
 
 
-{% include 'admin/pie.html' %}
+
+{% include 'sitio/pie.html' %}
+
